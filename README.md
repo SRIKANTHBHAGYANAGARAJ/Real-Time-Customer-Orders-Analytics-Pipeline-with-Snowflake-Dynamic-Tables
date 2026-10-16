@@ -1,3 +1,4 @@
+<img width="1153" height="445" alt="ANALYTICSDB PUBLIC FCT CUSTOMERORDERSDT" src="https://github.com/user-attachments/assets/15b951a6-58bd-4017-8de2-b181a72c66d9" />
 # Real-Time Customer Orders Analytics Pipeline with Snowflake Dynamic Tables
 
 A declarative data pipeline built in Snowflake that transforms raw customer and order data into analytics-ready fact tables — **without any external orchestration tools**.

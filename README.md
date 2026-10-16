@@ -3,7 +3,7 @@
 
 A declarative data pipeline built in Snowflake that transforms raw customer and order data into analytics-ready fact tables — **without any external orchestration tools**.
 
-![Snowflake][(https://img.shields.io/badge/Snowflake-Dynamic%20Tables-29B5E8?logo=snowflake&logoColor=white](https://developerbadges.snowflake.com/b7c3ac0c-d153-4768-b8e7-53af9a741f6e#acc.SQz1Z3fa))
+![Snowflake](https://img.shields.io/badge/Snowflake-Dynamic%20Tables-29B5E8?logo=snowflake&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Declarative-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)

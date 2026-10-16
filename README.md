@@ -1,4 +1,4 @@
-<img width="1153" height="445" alt="ANALYTICSDB PUBLIC FCT CUSTOMERORDERSDT" src="https://github.com/user-attachments/assets/15b951a6-58bd-4017-8de2-b181a72c66d9" />
+
 # Real-Time Customer Orders Analytics Pipeline with Snowflake Dynamic Tables
 
 A declarative data pipeline built in Snowflake that transforms raw customer and order data into analytics-ready fact tables — **without any external orchestration tools**.
@@ -220,6 +220,10 @@ alter dynamic table stg_orders_dt set target_lag = '5 minutes';
 ## 📸 Screenshots
 
 ### Pipeline DAG
+
+### ANALYTICS_DB.PUBLIC.FCT_CUSTOMER_ORDERS_DT
+
+<img width="1153" height="445" alt="ANALYTICSDB PUBLIC FCT CUSTOMERORDERSDT" src="https://github.com/user-attachments/assets/15b951a6-58bd-4017-8de2-b181a72c66d9" />
 
 <img width="1421" height="396" alt="Verify the Dynamic Tables" src="https://github.com/user-attachments/assets/66589d0c-24eb-4608-b6e1-1b6e9f63a3da" />
 <img width="1398" height="365" alt="product table" src="https://github.com/user-attachments/assets/d239e8ca-4d54-4504-9770-73d53dc4f493" />

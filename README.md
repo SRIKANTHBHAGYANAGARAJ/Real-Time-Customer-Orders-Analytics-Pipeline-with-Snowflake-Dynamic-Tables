@@ -79,20 +79,54 @@ real-time-customer-orders-analytics-snowflake/
 │   ├── 03_monitoring.sql
 │   └── 04_data_quality.sql
 │
-├── screenshots/
+├── img/
 │   ├── dag_pipeline.png
-│   ├── staging_customers.png
-│   ├── staging_orders_json.png
-│   ├── fact_table.png
-│   ├── refresh_history.png
-│   └── charts/
-│       ├── orders_by_date.png
-│       ├── customers_by_name.png
-│       └── stockdate_pid.png
+│   ├── raw_orders_json.png
+│   ├── stg_customers_table.png
+│   ├── customers_by_name.png
+│   ├── orders_by_date_bar.png
+│   ├── orders_by_date_line_zigzag.png
+│   ├── orders_by_date_line_smooth.png
+│   ├── customer_id_linear.png
+│   └── stockdate_pid.png
 │
 └── docs/
     └── architecture.md
 ```
+
+---
+
+## 📸 Pipeline Screenshots
+
+### 1. Pipeline DAG (Directed Acyclic Graph)
+*Flow: RAW CUSTOMERS → STG_CUSTOMERS_DT → FCT_CUSTOMER_ORDERS_DT*
+![DAG Pipeline](img/dag_pipeline.png)
+
+### 2. Raw Orders Table — JSON Data
+*The `PURCHASE` column contains nested JSON that gets unpacked.*
+![Raw Orders JSON](img/raw_orders_json.png)
+
+### 3. Staging Customers Table
+*Column renaming (`CUSTID` → `customer_id`) and type casting (`SPENDLIMIT` → FLOAT).*
+![Staging Customers](img/stg_customers_table.png)
+
+### 4. Customers by Name (Bar Chart)
+![Customers by Name](img/customers_by_name.png)
+
+### 5. Orders by Date (Bar Chart)
+![Orders by Date Bar](img/orders_by_date_bar.png)
+
+### 6. Orders by Date (Line Chart — Zigzag)
+![Orders by Date Zigzag](img/orders_by_date_line_zigzag.png)
+
+### 7. Orders by Date (Line Chart — Smooth)
+![Orders by Date Smooth](img/orders_by_date_line_smooth.png)
+
+### 8. Customer ID Trend (Linear)
+![Customer ID Linear](img/customer_id_linear.png)
+
+### 9. Product Stock Date (Bar Chart)
+![Stock Date PID](img/stockdate_pid.png)
 
 ---
 
@@ -213,23 +247,6 @@ alter dynamic table stg_orders_dt set target_lag = '5 minutes';
 - Customers by name (bar)
 - Customer spend limits (table)
 - Product stock date trends (bar)
-
----
-
-## 📸 Screenshots
-
-### Pipeline DAG
-
-![DAG Pipeline](screenshots/dag_pipeline.png)
-
-### Refresh History
-
-![Refresh History](screenshots/refresh_history.png)
-
-### Sample Charts
-
-![Orders by Date](screenshots/charts/orders_by_date.png)
-![Customers by Name](screenshots/charts/customers_by_name.png)
 
 ---
 

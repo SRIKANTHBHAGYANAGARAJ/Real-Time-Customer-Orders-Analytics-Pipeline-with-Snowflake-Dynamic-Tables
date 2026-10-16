@@ -226,29 +226,37 @@ alter dynamic table stg_orders_dt set target_lag = '5 minutes';
 ### customers limit by python UDF 1 : 
 <img width="1427" height="356" alt="Customer limit by using python UDF1" src="https://github.com/user-attachments/assets/19e1c0e7-6726-489a-8718-a8384e4fc3db" />
 
+### product table
+<img width="1398" height="365" alt="product table" src="https://github.com/user-attachments/assets/d239e8ca-4d54-4504-9770-73d53dc4f493" />
+
+
+### Orders limit by Customers
+<img width="1420" height="371" alt="Orders limit by Customers" src="https://github.com/user-attachments/assets/73457af7-3933-4a01-a465-5e8f1bece797" />
+
+### Create Staging Tables :
+1)Exploring the Customers Table
+<img width="1420" height="371" alt="Create Staging Tables" src="https://github.com/user-attachments/assets/24cb0daf-3aa5-449d-afe0-9425b5e8543b" />
+
+### Verify the Dynamic Tables : 
+
+<img width="1421" height="396" alt="Verify the Dynamic Tables" src="https://github.com/user-attachments/assets/66589d0c-24eb-4608-b6e1-1b6e9f63a3da" />
+
+### new Face Model Dynamic Table :
+<img width="1427" height="400" alt="new Face Model Dynamic Table" src="https://github.com/user-attachments/assets/644e6eb5-ea1a-43e3-aa4b-8842b95881e3" />
+
 ### ANALYTICS_DB.PUBLIC.FCT_CUSTOMER_ORDERS_DT
 
 <img width="1153" height="445" alt="ANALYTICSDB PUBLIC FCT CUSTOMERORDERSDT" src="https://github.com/user-attachments/assets/15b951a6-58bd-4017-8de2-b181a72c66d9" />
 
-<img width="1421" height="396" alt="Verify the Dynamic Tables" src="https://github.com/user-attachments/assets/66589d0c-24eb-4608-b6e1-1b6e9f63a3da" />
-<img width="1398" height="365" alt="product table" src="https://github.com/user-attachments/assets/d239e8ca-4d54-4504-9770-73d53dc4f493" />
-<img width="1420" height="371" alt="Orders limit by Customers" src="https://github.com/user-attachments/assets/73457af7-3933-4a01-a465-5e8f1bece797" />
-<img width="1427" height="400" alt="new Face Model Dynamic Table" src="https://github.com/user-attachments/assets/644e6eb5-ea1a-43e3-aa4b-8842b95881e3" />
-<img width="1172" height="351" alt="Data qualityimplentation" src="https://github.com/user-attachments/assets/b2f3b6ff-6b0d-4aa9-8331-3145e839f312" />
-<img width="1157" height="376" alt="data quality enforcement by removing null orders" src="https://github.com/user-attachments/assets/46cc530d-e614-492d-a81b-18fc5611f446" />
+###ANALYTICS_DB PUBLIC STG_CUSTOMERS_DT
 
-<img width="1420" height="371" alt="Create Staging Tables" src="https://github.com/user-attachments/assets/24cb0daf-3aa5-449d-afe0-9425b5e8543b" />
 <img width="1125" height="357" alt="ANALYTICS_DB PUBLIC STG_CUSTOMERS_DT" src="https://github.com/user-attachments/assets/c5cefc79-a151-4d84-a19d-88defc5b4771" />
-![DAG Pipeline](screenshots/dag_pipeline.png)
 
-### Refresh History
+###Implement Data Quality
+<img width="1172" height="351" alt="Data qualityimplentation" src="https://github.com/user-attachments/assets/b2f3b6ff-6b0d-4aa9-8331-3145e839f312" />
 
-![Refresh History](screenshots/refresh_history.png)
-
-### Sample Charts
-
-![Orders by Date](screenshots/charts/orders_by_date.png)
-![Customers by Name](screenshots/charts/customers_by_name.png)
+### Data quality enforcement by removing null orders
+<img width="1157" height="376" alt="data quality enforcement by removing null orders" src="https://github.com/user-attachments/assets/46cc530d-e614-492d-a81b-18fc5611f446" />
 
 ---
 

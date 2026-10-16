@@ -248,9 +248,13 @@ alter dynamic table stg_orders_dt set target_lag = '5 minutes';
 
 <img width="1153" height="445" alt="ANALYTICSDB PUBLIC FCT CUSTOMERORDERSDT" src="https://github.com/user-attachments/assets/15b951a6-58bd-4017-8de2-b181a72c66d9" />
 
-###ANALYTICS_DB PUBLIC STG_CUSTOMERS_DT
+### ANALYTICS_DB PUBLIC STG_CUSTOMERS_DT
 
 <img width="1125" height="357" alt="ANALYTICS_DB PUBLIC STG_CUSTOMERS_DT" src="https://github.com/user-attachments/assets/c5cefc79-a151-4d84-a19d-88defc5b4771" />
+
+### ANALYTICS_DB PUBLIC STG_ORDERS_DT
+<img width="1202" height="350" alt="ORDERS" src="https://github.com/user-attachments/assets/99a225ef-ef62-4e50-92b6-129bf5cdab89" />
+
 
 ###Implement Data Quality
 <img width="1172" height="351" alt="Data qualityimplentation" src="https://github.com/user-attachments/assets/b2f3b6ff-6b0d-4aa9-8331-3145e839f312" />

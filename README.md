@@ -257,7 +257,7 @@ alter dynamic table stg_orders_dt set target_lag = '5 minutes';
 <img width="1202" height="350" alt="ORDERS" src="https://github.com/user-attachments/assets/99a225ef-ef62-4e50-92b6-129bf5cdab89" />
 
 
-###Implement Data Quality
+### Implement Data Quality
 <img width="1172" height="351" alt="Data qualityimplentation" src="https://github.com/user-attachments/assets/b2f3b6ff-6b0d-4aa9-8331-3145e839f312" />
 
 ### Data quality enforcement by removing null orders
